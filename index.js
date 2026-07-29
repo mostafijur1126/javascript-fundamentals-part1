@@ -5,7 +5,7 @@ const contient = "asia";
 const population = 20;
 
 //2nd example
-const IsIsland = true;
+const Island = true;
 let language = "bangla";
 language = "hindi";
 
@@ -58,14 +58,21 @@ const recreateDescription = `${country} is in ${contient} ann it's ${population}
 // );
 
 // LATER : This helps us prevent bugs
-const numNeighbours = Number(
-  prompt("How many neighbour countries does your country have?"),
-);
+// const numNeighbours = Number(
+//   prompt("How many neighbour countries does your country have?"),
+// );
 
-if (numNeighbours === 1) {
-  console.log("Only 1 border!");
-} else if (numNeighbours > 1) {
-  console.log("More than 1 border");
+// if (numNeighbours === 1) {
+//   console.log("Only 1 border!");
+// } else if (numNeighbours > 1) {
+//   console.log("More than 1 border");
+// } else {
+//   console.log("No borders");
+// }
+
+//Logical Operators
+if (language === "bangla" && population > 50 && Island) {
+  console.log(`You should live in ${country} :)`);
 } else {
-  console.log("No borders");
+  console.log(`${country} does not meet your criteria :(`);
 }
