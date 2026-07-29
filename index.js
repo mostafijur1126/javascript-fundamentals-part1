@@ -36,16 +36,17 @@ const description =
 const recreateDescription = `${country} is in ${contient} ann it's ${population} million people speak ${language}`;
 
 //Taking Decisions: if / else Statements
-if (population > 33) {
-  console.log(`${country}'s population is above average`);
-} else {
-  console.log(
-    `${country}'s population is ${33 - population} million below average`,
-  );
-}
+// if (population > 33) {
+//   console.log(`${country}'s population is above average`);
+// } else {
+//   console.log(
+//     `${country}'s population is ${33 - population} million below average`,
+//   );
+// }
 
-// console.log(typeof country);
-// console.log(typeof contient);
-// console.log(typeof population);
-// console.log(typeof IsIsland);
-// console.log(recreateDescription);
+//Type Conversion and Coercion
+console.log("9" - "5");
+console.log("19" - "13" + "17");
+console.log("19" - "13" + 17);
+console.log("123" < 57);
+console.log(5 + 6 + "4" + 9 - 4 - 2);
