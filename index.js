@@ -24,6 +24,27 @@ if (33 < Bangladesh) {
 } else {
   //   console.log("Bangladesh has Les population");
 }
+
+let javascriptIsFun = true;
+// console.log(typeof javascriptIsFun);
+// console.log(typeof "javascriptIsFun");
+// console.log(typeof 123);
+// console.log(typeof null);
+// console.log(typeof undefined);
+// console.log(typeof NaN);
+// console.log(typeof []);
+// console.log(typeof {});
+// console.log(typeof function () {});
+// console.log(null == undefined);
+// console.log(null === undefined);
+// console.log(NaN ===  NaN);
+
+javascriptIsFun = "yes";
+// console.log(javascriptIsFun);
+
+// lastName = "Mostafijur";
+// console.log(lastName);
+
 const description =
   country +
   " is in " +
