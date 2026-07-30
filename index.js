@@ -167,3 +167,10 @@ const name = "rahim";
 if (name === "raju") {
   console.log("hi");
 }
+
+//the conditional ternary operator
+
+const age = 23;
+age >= 18
+  ? console.log("I like to drink wine")
+  : console.log("i like to drink water");
