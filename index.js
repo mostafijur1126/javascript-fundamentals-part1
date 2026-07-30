@@ -120,15 +120,40 @@ x = y = 25 - 10 - 5;
 //Boolean logic
 
 //Logical Operators
-if (language === "bangla" && population > 50 && Island) {
-  console.log(`You should live in ${country} :)`);
-} else {
-  console.log(`${country} does not meet your criteria :(`);
-}
+// if (language === "bangla" && population > 50 && Island) {
+//   console.log(`You should live in ${country} :)`);
+// } else {
+//   console.log(`${country} does not meet your criteria :(`);
+// }
 
 const hasLicense = true;
 const hasVision = true;
 
 const isTired = false;
 
-console.log(hasLicense && hasVision && !isTired);
+// console.log(hasLicense && hasVision && !isTired);
+
+//The Switch Statement
+const day = "monday";
+
+switch (day) {
+  case "monday":
+    console.log("plan course");
+    break;
+  case "tuesday":
+    console.log("prepare theory video");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("write code examples");
+    break;
+  case "fryday":
+    console.log("record videos");
+    break;
+  case "saturday":
+  case "sunday":
+    console.log("enjoy the weekend");
+    break;
+  default:
+    console.log("not a valid day!");
+}
