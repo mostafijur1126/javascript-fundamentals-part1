@@ -45,6 +45,8 @@ javascriptIsFun = "yes";
 // lastName = "Mostafijur";
 // console.log(lastName);
 
+//String and template literals
+
 const description =
   country +
   " is in " +
@@ -76,7 +78,7 @@ let x, y;
 x = y = 25 - 10 - 5;
 // console.log(x, y);
 
-console.log(10 % 3);
+// console.log(10 % 3);
 
 //Type Conversion and Coercion
 // console.log("9" - "5");
