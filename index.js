@@ -157,3 +157,13 @@ switch (day) {
   default:
     console.log("not a valid day!");
 }
+
+// explore Expression and statement
+
+//Expression
+const name = "rahim";
+
+//statement
+if (name === "raju") {
+  console.log("hi");
+}
