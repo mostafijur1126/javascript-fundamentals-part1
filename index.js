@@ -25,28 +25,7 @@ if (33 < Bangladesh) {
   //   console.log("Bangladesh has Les population");
 }
 
-let javascriptIsFun = true;
-// console.log(typeof javascriptIsFun);
-// console.log(typeof "javascriptIsFun");
-// console.log(typeof 123);
-// console.log(typeof null);
-// console.log(typeof undefined);
-// console.log(typeof NaN);
-// console.log(typeof []);
-// console.log(typeof {});
-// console.log(typeof function () {});
-// console.log(null == undefined);
-// console.log(null === undefined);
-// console.log(NaN ===  NaN);
-
-javascriptIsFun = "yes";
-// console.log(javascriptIsFun);
-
-// lastName = "Mostafijur";
-// console.log(lastName);
-
 //String and template literals
-
 const description =
   country +
   " is in " +
@@ -66,7 +45,7 @@ if (birthday <= 2000) {
 } else {
   century = 21;
 }
-console.log(century);
+// console.log(century);
 
 // if (population > 33) {
 //   console.log(`${country}'s population is above average`);
@@ -75,6 +54,28 @@ console.log(century);
 //     `${country}'s population is ${33 - population} million below average`,
 //   );
 // }
+
+//Type Conversion and Coercion
+
+let javascriptIsFun = true;
+// console.log(typeof javascriptIsFun);
+// console.log(typeof "javascriptIsFun");
+// console.log(typeof 123);
+// console.log(typeof null);
+// console.log(typeof undefined);
+// console.log(typeof NaN);
+// console.log(typeof []);
+// console.log(typeof {});
+// console.log(typeof function () {});
+// console.log(null == undefined);
+// console.log(null === undefined);
+// console.log(NaN ===  NaN);
+
+javascriptIsFun = "yes";
+// console.log(javascriptIsFun);
+
+// lastName = "Mostafijur";
+// console.log(lastName);
 
 //Precendence of operator
 const now = 2037;
