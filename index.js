@@ -125,3 +125,10 @@ if (language === "bangla" && population > 50 && Island) {
 } else {
   console.log(`${country} does not meet your criteria :(`);
 }
+
+const hasLicense = true;
+const hasVision = true;
+
+const isTired = false;
+
+console.log(hasLicense && hasVision && !isTired);
