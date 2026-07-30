@@ -59,6 +59,15 @@ const description =
 const recreateDescription = `${country} is in ${contient} ann it's ${population} million people speak ${language}`;
 
 //Taking Decisions: if / else Statements
+const birthday = 1982;
+let century;
+if (birthday <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+console.log(century);
+
 // if (population > 33) {
 //   console.log(`${country}'s population is above average`);
 // } else {
