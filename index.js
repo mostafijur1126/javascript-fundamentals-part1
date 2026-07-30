@@ -71,6 +71,13 @@ let javascriptIsFun = true;
 // console.log(null === undefined);
 // console.log(NaN ===  NaN);
 
+//Type Conversion and Coercion
+// console.log("9" - "5");
+// console.log("19" - "13" + "17");
+// console.log("19" - "13" + 17);
+// console.log("123" < 57);
+// console.log(5 + 6 + "4" + 9 - 4 - 2);
+
 javascriptIsFun = "yes";
 // console.log(javascriptIsFun);
 
@@ -87,15 +94,9 @@ const ageSarah = now - 2018;
 let x, y;
 x = y = 25 - 10 - 5;
 // console.log(x, y);
-
 // console.log(10 % 3);
 
-//Type Conversion and Coercion
-// console.log("9" - "5");
-// console.log("19" - "13" + "17");
-// console.log("19" - "13" + 17);
-// console.log("123" < 57);
-// console.log(5 + 6 + "4" + 9 - 4 - 2);
+//Truthy and falsy values
 
 //Equality Operators: == vs. ===
 
@@ -115,6 +116,8 @@ x = y = 25 - 10 - 5;
 // } else {
 //   console.log("No borders");
 // }
+
+//Boolean logic
 
 //Logical Operators
 if (language === "bangla" && population > 50 && Island) {
